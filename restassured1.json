@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "ac2abc9c-e46e-4388-822e-2c162b3200c6",
+		"name": "Restassured2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21739479"
+	},
+	"item": [
+		{
+			"name": "bookingdetails",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

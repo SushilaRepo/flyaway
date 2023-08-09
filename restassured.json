@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "94ec1eee-c3f0-4e8f-a1e9-7954a3637444",
+		"name": "Restassured",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21739479"
+	},
+	"item": [
+		{
+			"name": "newpage",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "endpoint",
+						"value": "/FlyAway/?source=1&destination=4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost9012{{endpoint}}",
+					"protocol": "https",
+					"host": [
+						"localhost9012{{endpoint}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "endpoint",
+			"value": "/FlyAway/?source=1&destination=4"
+		}
+	]
+}
